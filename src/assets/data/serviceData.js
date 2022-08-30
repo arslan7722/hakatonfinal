@@ -1,44 +1,44 @@
 const serviceData = [
   {
     id: 1,
-    title: "City Transfer",
+    title: "Трансфер по городу",
     icon: "ri-map-pin-2-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Снова и снова мир грустит, они завидуют им, но это было то же самое. Боль как две садящиеся сети. Губергрен Губ",
   },
 
   {
     id: 2,
-    title: "Whole  City Tour",
+    title: "Обзорная экскурсия по городу",
     icon: "ri-community-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Снова и снова мир грустит, они завидуют им, но это было то же самое. Боль как две садящиеся сети. Губергрен Губ",
   },
 
   {
     id: 3,
-    title: "Unlimited Miles Car Rental",
+    title: "Прокат автомобилей с неограниченным пробегом",
     icon: "ri-roadster-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Снова и снова мир грустит, они завидуют им, но это было то же самое. Боль как две садящиеся сети. Губергрен Губ",
   },
 
   {
     id: 4,
-    title: "Fast & Easy Booking",
+    title: "Быстрое и простое бронирование",
     icon: "ri-timer-flash-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Снова и снова мир грустит, они завидуют им, но это было то же самое. Боль как две садящиеся сети. Губергрен Губ",
   },
 
   {
     id: 5,
-    title: "Many Pickup Locations",
+    title: "Много пунктов выдачи",
     icon: "ri-map-pin-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Снова и снова мир грустит, они завидуют им, но это было то же самое. Боль как две садящиеся сети. Губергрен Губ",
   },
 
   {
     id: 6,
-    title: "Airport Transfer",
+    title: "Трансфер из аэропорта",
     icon: "ri-flight-takeoff-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    desc: "Снова и снова мир грустит, они завидуют им, но это было то же самое. Боль как две садящиеся сети. Губергрен Губ",
   },
 ];
 

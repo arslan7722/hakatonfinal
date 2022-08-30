@@ -30,15 +30,15 @@ const BlogDetails = () => {
 
                 <div className="blog__publisher d-flex align-items-center gap-4 mb-4">
                   <span className="blog__author">
-                    <i class="ri-user-line"></i> {blog.author}
+                    <i className="ri-user-line"></i> {blog.author}
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description">
-                    <i class="ri-calendar-line"></i> {blog.date}
+                    <i className="ri-calendar-line"></i> {blog.date}
                   </span>
 
                   <span className=" d-flex align-items-center gap-1 section__description">
-                    <i class="ri-time-line"></i> {blog.time}
+                    <i className="ri-time-line"></i> {blog.time}
                   </span>
                 </div>
 
@@ -50,13 +50,13 @@ const BlogDetails = () => {
               </div>
 
               <div className="comment__list mt-5">
-                <h4 className="mb-5">3 Comments</h4>
+                <h4 className="mb-5">3 Коментария</h4>
 
                 <div className="single__comment d-flex gap-3">
                   <img src={commentImg} alt="" />
                   <div className="comment__content">
-                    <h6 className=" fw-bold">David Visa</h6>
-                    <p className="section__description mb-0">14 July, 2022</p>
+                    <h6 className=" fw-bold">Макс</h6>
+                    <p className="section__description mb-0">30 августа, 2022</p>
                     <p className="section__description">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Eos nobis totam eius laborum molestias itaque minima
@@ -64,16 +64,16 @@ const BlogDetails = () => {
                     </p>
 
                     <span className="replay d-flex align-items-center gap-1">
-                      <i class="ri-reply-line"></i> Replay
+                      <i className="ri-reply-line"></i> Повтор
                     </span>
                   </div>
                 </div>
 
                 {/* =============== comment form ============ */}
                 <div className="leave__comment-form mt-5">
-                  <h4>Leave a Comment</h4>
+                  <h4>Оставить комментарий</h4>
                   <p className="section__description">
-                    You must sign-in to make or comment a post
+                  Вы должны войти в систему, чтобы сделать или прокомментировать публикацию
                   </p>
 
                   <Form>
@@ -91,7 +91,7 @@ const BlogDetails = () => {
                     </FormGroup>
 
                     <button className="btn comment__btn mt-3">
-                      Post a Comment
+                    Оставить комментарий
                     </button>
                   </Form>
                 </div>
@@ -100,7 +100,7 @@ const BlogDetails = () => {
 
             <Col lg="4" md="4">
               <div className="recent__post mb-4">
-                <h5 className=" fw-bold">Recent Posts</h5>
+                <h5 className=" fw-bold">Недавние Посты</h5>
               </div>
               {blogData.map((item) => (
                 <div className="recent__blog-post mb-4" key={item.id}>

@@ -9,7 +9,7 @@ import ava03 from "../../assets/all-images/ava-3.jpg";
 const OUR__MEMBERS = [
   {
     name: "Jhon Doe",
-    experience: "5 years of experience",
+    experience: "5 лет опыта",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -19,7 +19,7 @@ const OUR__MEMBERS = [
 
   {
     name: "David Lisa",
-    experience: "5 years of experience",
+    experience: "5 лет опыта",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -29,7 +29,7 @@ const OUR__MEMBERS = [
 
   {
     name: "Hilton King",
-    experience: "5 years of experience",
+    experience: "5 лет опыта",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -39,7 +39,7 @@ const OUR__MEMBERS = [
 
   {
     name: "Jhon Doe",
-    experience: "5 years of experience",
+    experience: "5 лет опыта",
     fbUrl: "#",
     instUrl: "#",
     twitUrl: "#",
@@ -59,18 +59,18 @@ const OurMembers = () => {
 
               <div className="single__member-social">
                 <Link to={item.fbUrl}>
-                  <i class="ri-facebook-line"></i>
+                  <i className="ri-facebook-line"></i>
                 </Link>
                 <Link to={item.twitUrl}>
-                  <i class="ri-twitter-line"></i>
+                  <i className="ri-twitter-line"></i>
                 </Link>
 
                 <Link to={item.linkedinUrl}>
-                  <i class="ri-linkedin-line"></i>
+                  <i className="ri-linkedin-line"></i>
                 </Link>
 
                 <Link to={item.instUrl}>
-                  <i class="ri-instagram-line"></i>
+                  <i className="ri-instagram-line"></i>
                 </Link>
               </div>
             </div>

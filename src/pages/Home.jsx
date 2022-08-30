@@ -26,7 +26,7 @@ const Home = () => {
             <Row className="form__row">
               <Col lg="4" md="4">
                 <div className="find__cars-left">
-                  <h2>Find your best car here</h2>
+                  <h2>Найдите свой лучший автомобиль здесь</h2>
                 </div>
               </Col>
 
@@ -44,8 +44,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">See our</h6>
-              <h2 className="section__title">Popular Services</h2>
+              <h6 className="section__subtitle">Смотрите Наши</h6>
+              <h2 className="section__title">Популярные Услуги</h2>
             </Col>
 
             <ServicesList />
@@ -57,8 +57,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h6 className="section__subtitle">Come with</h6>
-              <h2 className="section__title">Hot Offers</h2>
+              <h6 className="section__subtitle">Прийти с</h6>
+              <h2 className="section__title">Горячие предложения</h2>
             </Col>
 
             {carData.slice(0, 6).map((item) => (
@@ -75,8 +75,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-4 text-center">
-              <h6 className="section__subtitle">Our clients says</h6>
-              <h2 className="section__title">Testimonials</h2>
+              <h6 className="section__subtitle">Наши Клиенты Пишут</h6>
+              <h2 className="section__title">Отзывы</h2>
             </Col>
 
             <Testimonial />
@@ -89,8 +89,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Explore our blogs</h6>
-              <h2 className="section__title">Latest Blogs</h2>
+              <h6 className="section__subtitle">Изучите наши блоги</h6>
+              <h2 className="section__title">Последние блоги</h2>
             </Col>
 
             <BlogList />

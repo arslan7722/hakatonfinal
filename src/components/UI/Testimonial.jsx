@@ -42,72 +42,60 @@ const Testimonial = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        Всегда когда я путешествую по чужой стране, я беру в прокат автомобиль. На этот раз мы взяли автомобиль в аренду в Бишкеке от компании Naniko. Хотим отблагодарить дружелюбный персонал за хороший сервис. Я, с друзьями устроил себе интересную экскурсию по горам Киргизстана. Незабываемые впечатления остались от красоты озер: Сары-Челек и Сон Куль. Всем рекомендую компанию Naniko. И обязательно заказывайте, внедорожник для езды по дорогам высоких гор Киргизстана.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">Арсен</h6>
+            <p className="section__description">Покупатель</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        Всегда когда я путешествую по чужой стране, я беру в прокат автомобиль. На этот раз мы взяли автомобиль в аренду в Бишкеке от компании Naniko. Хотим отблагодарить дружелюбный персонал за хороший сервис. Я, с друзьями устроил себе интересную экскурсию по горам Киргизстана. Незабываемые впечатления остались от красоты озер: Сары-Челек и Сон Куль. Всем рекомендую компанию Naniko. И обязательно заказывайте, внедорожник для езды по дорогам высоких гор Киргизстана.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">Амантур</h6>
+            <p className="section__description">Покупатель</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        Всегда когда я путешествую по чужой стране, я беру в прокат автомобиль. На этот раз мы взяли автомобиль в аренду в Бишкеке от компании Naniko. Хотим отблагодарить дружелюбный персонал за хороший сервис. Я, с друзьями устроил себе интересную экскурсию по горам Киргизстана. Незабываемые впечатления остались от красоты озер: Сары-Челек и Сон Куль. Всем рекомендую компанию Naniko. И обязательно заказывайте, внедорожник для езды по дорогам высоких гор Киргизстана.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">Бекжан</h6>
+            <p className="section__description">Покупатель</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        Всегда когда я путешествую по чужой стране, я беру в прокат автомобиль. На этот раз мы взяли автомобиль в аренду в Бишкеке от компании Naniko. Хотим отблагодарить дружелюбный персонал за хороший сервис. Я, с друзьями устроил себе интересную экскурсию по горам Киргизстана. Незабываемые впечатления остались от красоты озер: Сары-Челек и Сон Куль. Всем рекомендую компанию Naniko. И обязательно заказывайте, внедорожник для езды по дорогам высоких гор Киргизстана.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
           <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
 
           <div>
-            <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <h6 className="mb-0 mt-3">Арслан</h6>
+            <p className="section__description">Покупатель</p>
           </div>
         </div>
       </div>

@@ -15,11 +15,11 @@ const BecomeDriverSection = () => {
 
           <Col lg="6" md="6" sm="12">
             <h2 className="section__title become__driver-title">
-              Do You Want to Earn With Us? So Don't Be Late
+             Хотите Зарабатывать с Нами? Так Что Не Опаздывайте
             </h2>
 
             <button className="btn become__driver-btn mt-4">
-              Become a Driver
+              Стать водителем !
             </button>
           </Col>
         </Row>
