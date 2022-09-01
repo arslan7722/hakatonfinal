@@ -7,26 +7,26 @@ import "../../styles/footer.css";
 const quickLinks = [
   {
     path: "/about",
-    display: "About",
+    display: "о нас",
   },
 
   {
     path: "#",
-    display: "Privacy Policy",
+    display: "Политика конфиденциальности",
   },
 
   {
     path: "/cars",
-    display: "Car Listing",
+    display: "Список автомобилей",
   },
   {
     path: "/blogs",
-    display: "Blog",
+    display: "Блог",
   },
 
   {
     path: "/contact",
-    display: "Contact",
+    display: "Контакты",
   },
 ];
 
@@ -41,24 +41,28 @@ const Footer = () => {
             <div className="logo footer__logo">
               <h1>
                 <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <i class="ri-car-line"></i>
+                  <i className="ri-car-line"></i>
                   <span>
-                    Rent Car <br /> Service
+                    Прокат
+                    <br /> автомобилей
                   </span>
                 </Link>
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+              ОсОО «Бедачи» ведет деятельность на территории КР в соответствии с
+              законодательством КР. Реализуемые товары доступны к получению на
+              территории КР. Мониторинг потребительского поведения субъектов,
+              находящихся за пределами КР, не ведется. Информация о
+              соответствующих моделях и комплектациях и их наличии, ценах,
+              возможных выгодах и условиях приобретения доступна на данном
+              портале. Товар сертифицирован.
             </p>
           </Col>
 
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title">Quick Links</h5>
+              <h5 className="footer__link-title">Быстрые ссылки</h5>
               <ListGroup>
                 {quickLinks.map((item, index) => (
                   <ListGroupItem key={index} className="p-0 mt-3 quick__link">
@@ -71,24 +75,28 @@ const Footer = () => {
 
           <Col lg="3" md="4" sm="6">
             <div className="mb-4">
-              <h5 className="footer__link-title mb-4">Head Office</h5>
-              <p className="office__info">123 Zindabazar, Sylhet, Bangladesh</p>
-              <p className="office__info">Phone: +0995345875365</p>
+              <h5 className="footer__link-title mb-4">Головной офис</h5>
+              <p className="office__info">Бишкек Кыргызыстан</p>
+              <p className="office__info">Контакты: +996-502-86-00-68</p>
 
-              <p className="office__info">Email: muhib5532@gmail.com</p>
+              <p className="office__info">Email: kalykov781@gmail.com</p>
 
-              <p className="office__info">Office Time: 10am - 7pm</p>
+              <p className="office__info">
+                Время работы офиса: с 10:00 до 19:00.
+              </p>
             </div>
           </Col>
 
           <Col lg="3" md="4" sm="12">
             <div className="mb-4">
-              <h5 className="footer__link-title">Newsletter</h5>
-              <p className="section__description">Subscribe our newsletter</p>
+              <h5 className="footer__link-title">Новостная рассылка</h5>
+              <p className="section__description">
+                Подпишитесь на нашу рассылку
+              </p>
               <div className="newsletter">
                 <input type="email" placeholder="Email" />
                 <span>
-                  <i class="ri-send-plane-line"></i>
+                  <i className="ri-send-plane-line"></i>
                 </span>
               </div>
             </div>
@@ -97,8 +105,8 @@ const Footer = () => {
           <Col lg="12">
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-                <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                Muhibur Rahman. All rights reserved.
+                <i className="ri-copyright-line"></i>
+                Все права защищены.
               </p>
             </div>
           </Col>
